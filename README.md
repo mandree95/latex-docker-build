@@ -6,5 +6,5 @@ Just call the build script like in the following example:
 $ latex-build -l abschlussarbeit -c
 ```
 
-The argument `-l ARG` is the name of your main tex file.
+The argument `-l ARG` is the name of your main tex file without file extension.
 `-c` stands for something like cleanup. If set, the latex files are cleaned up.
