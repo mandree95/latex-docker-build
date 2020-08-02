@@ -11,7 +11,7 @@ LABEL description="Docker image for latex build" \
 # Install latex tools #
 # ------------------- #
 RUN apt-get update \
-  && apt-get -q -y install \
+  && DEBIAN_FRONTEND=noninteractive apt-get -q -y install \
     texlive-full \
     xindy \
     openjdk-8-jre \
